@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/141c420096.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">Rishabh Singh.</div>
+            <div class="burger" id="burger"><span><span></span></span></div>
+            <div class="menu" id="menu">
+                <a href="#home">Home</a>
+                <a href="#AboutUs">About</a>
+                <a href="#project">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#enquiry">Services</a>
+                <a href="#Contact">Contact</a>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+
+    <section id="home" class="homes">
+        <!-- <div class="homes"> -->
+        <div class="conatin">
+            <h1><span class="hi">I'm</span> Rishabh Singh</h1>
+            <h3>Web Developer</h3>
+
+            <a class="hire" href="Rishabh Singh_Res.pdf" download="Download">Download CV</a>
+            <a class="hires" href="#enquiry">Hire Me</a>
+
+
+        </div>
+        <div class="content">
+            <div class="imge">
+                <img src="DSC_1346.JPG" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="AboutUs" class="about">
+        <div class="container">
+            <div class="contents">
+                <p class="para">I’m <span class="bold">Rishabh Singh</span>, a passionate Web Developer completed BCA
+                    from United
+                    University, graduate in
+                    2025. I specialize in creating responsive, user-friendly websites using HTML, CSS, JavaScript, with
+                    additional skills in PHP and MySQL.
+                    My key projects include an Age Calculator, an interactive Profile Card, and a fully functional
+                    Restaurant Website. I’m focused on building clean, efficient, and impactful digital experiences.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contents">
+                <p class="graph">Motivated and detail-oriented Web Developer with a strong foundation in HTML, CSS,
+                    JavaScript, and responsive design. Adept at building user-friendly interfaces and
+                    learning modern frameworks like React and Bootstrap. Passionate about writing clean,
+                    maintainable code and continuously improving through self-learning and real-world
+                    projects. Eager to contribute to dynamic teams and grow as a full-stack developer. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="project" class="projects">
+        <div class="grid">
+            <div class="cards">
+                <div class="image_cont">
+                    <img src="1.png" alt="">
+                </div>
+                <div class="card_cont">
+                    <h3>Coding Lab</h3>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="cards">
+                <div class="image_cont">
+                    <img src="2.png" alt="">
+                </div>
+                <div class="card_cont">
+                    <h3>Age Calculator</h3>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="cards">
+                <div class="image_cont">
+                    <img src="3.png" alt="">
+                </div>
+                <div class="card_cont">
+                    <h3>Restaurant Website</h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>25%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="enquiry" class="enquiry">
+        <div class="form1">
+            <h2 class="titl">Enquiry Form</h2>
+            <div class="form2">
+                <form class="form">
+                    <div class="inputs">
+
+                        <div class="FullName">
+                            <input type="text" placeholder="Full Name" class="input" name="name" required>
+                        </div>
+                        <div class="Mobile">
+                            <input type="text" placeholder="Enter Mobile Number" class="input"  name="number" required>
+                        </div>
+                        <div class="Mail">
+                            <input type="email" placeholder="Enter Email" class="input"  name="email" required>
+                        </div>
+                        <div class="textArea">
+                            <textarea cols="50" rows="20" placeholder="Explain your idea"  name="ideas"
+                                required></textarea>
+                        </div>
+                        <div class="lang">
+                            <!-- <label for="Use" class="Language">Language Use</label> -->
+                            <select name="value" required>
+                                <option> Choose Your Language Preference for Website</option>
+                                <option value="JavaScript">Using JavaScript</option>
+                                <option value="ReactJS">Using ReactJS</option>
+                                <option value="Python">Using Python</option>
+                                <option value="C">Using C</option>
+                                <option value="C++">Using C++</option>
+                                <option value="java">Using Java</option>
+                            </select>
+                        </div>
+                        <div >
+                            <button type="submit" class="submit">Submit</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="Contact" class="Touch">
+        <div class="section">
+            <span class="get">
+                <h2>Contact Me</h2>
+            </span>
+            <span class="get">
+                <h4>Get In Touch</h4>
+            </span>
+            <div class="icon">
+                <a href="#" style="background: black;" class="link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#"  class="link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" style="background: rgb(8, 8, 8);" class="link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/_panchayat_vlogs/?igsh=MTZ0bTZiNnJwM2RnOQ%3D%3D#"
+                    style="background: #e1306c" class="link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://gwzq457d-5500.inc1.devtunnels.ms/" style="background: #4267b2" class="link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="follow">
+                <input type="email" placeholder="Enter mail Id" class="follows" name="mail" >
+                <div class="submits">  
+                    <button type="submit">follow</button>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#home">Rishabh Singh</a> | <span class="far fa-copyright"></span> 2025 All rights
+            reserved.</span>
+    </footer>
+
+</body>
+
+</html>
